@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var stylus = require('stylus');
 var session = require('express-session');
 
-var index = require('../../../../Downloads/a1/routes/index');
+var index = require('./routes/index');
 
 var app = express();
 
