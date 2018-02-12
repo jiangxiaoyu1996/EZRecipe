@@ -8,13 +8,10 @@ module.exports.index = function(req, res, next) {
   res.render('index', { title: 'EZRecipes' });
 }
 
+
 module.exports.get_login = function(req, res, next) {
   res.render('login');
 }
-
-
-
-
 module.exports.post_login = function(req, res, next) {
     res.redirect("/user/index" );
 };
